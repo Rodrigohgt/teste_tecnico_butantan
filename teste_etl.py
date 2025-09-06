@@ -13,7 +13,7 @@ import os
 from typing import Dict, Optional, Tuple
 import warnings
 
-warnings.filterwarnings('ignore')
+warnings.filterwarnings('ignore') #Ignora alertas desnecessarios.
 
 # CONFIGURAÇÃO DOS CAMINHOS DOS ARQUIVOS
 ARQUIVO_CABECALHO = "02_dados/cabecalho_pedido.csv"
