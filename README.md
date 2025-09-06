@@ -42,3 +42,13 @@ GROUP BY + LAST: Pega o registro mais recente de cada material
 | codigo_pedido_referencia  | Pedido de onde veio o preço              |
 | data_cotacao              | Data da cotação usada (se houver)        |
 
+## 6. Soluções de machine learning
+
+1. PREDIÇÃO DE PREÇOS 
+A principal ideia é usar um modelo LSTM (redes neurais) + Features econômicas para prevê se o preço de um material vai subir ou descer nos próximos meses, fazendo com que ao detectar uma oportunidade de compra ele dispare um alerta.
+
+1. PREDIÇÃO DE DEMANDA 
+Utilizando o modelo ARIMA + XGBoost (híbrido) é possivel prevê a quantidade de cada material que será necessária nos próximos meses.
+
+
+
